@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T14:04:24.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="0YY-mVFdcJhAvv-n4JDz" version="21.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-31T04:52:00.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="qIQNppwwUxj3NcXrNT0F" version="21.3.5" type="github" pages="3">
   <diagram name="第 1 页" id="TUe0MpKkViwjhuMiSQQj">
     <mxGraphModel dx="1205" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,11 +176,50 @@
         <mxCell id="E1koXmu3drvWn4_0AYfi-1" value="应用平面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="253" y="158" width="275" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="E1koXmu3drvWn4_0AYfi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="267" y="182" width="70" height="47" as="geometry" />
+        <mxCell id="E1koXmu3drvWn4_0AYfi-2" value="应用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="274" y="182" width="70" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="E1koXmu3drvWn4_0AYfi-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="E1koXmu3drvWn4_0AYfi-3" value="应用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="437" y="182" width="70" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-3" value="控制平面" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="253" y="285" width="275" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-4" value="SDN控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="304" width="95" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-5" value="转发平面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="411" width="275" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-8" value="网络设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="435" width="70" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-9" value="网络设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="435" width="70" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-15" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="E1koXmu3drvWn4_0AYfi-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="308" y="286" as="sourcePoint" />
+            <mxPoint x="462" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.797;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mDldBEQQ-BsIQ726UgDM-3" target="E1koXmu3drvWn4_0AYfi-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="362" y="398" as="sourcePoint" />
+            <mxPoint x="462" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.198;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mDldBEQQ-BsIQ726UgDM-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="362" y="398" as="sourcePoint" />
+            <mxPoint x="307" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDldBEQQ-BsIQ726UgDM-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="473" y="411" as="sourcePoint" />
+            <mxPoint x="473" y="356" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
